@@ -1,20 +1,32 @@
+
+.centerer {
+    display: flex;
+}
+
+
 .grid-container {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-    background-color: red;
-    padding: 10px;
-    min-width: 640px;
+    padding: 0;
+    grid-gap: 0px;
+    /*min-width: 640px;
     min-height: 640px;
     max-width: 640px;
-    max-height: 640px;
-    text-align: center;
-    place-items: center;
+    max-height: 640px; */
     margin: auto;
+    background-color: aqua;
   }
-
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    font-size: 30px;
+/*.grid-item {
+    background-color: black;
     text-align: center;
+
+
+}*/
+
+.showprompt {
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
 }
